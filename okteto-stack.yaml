@@ -1,6 +1,6 @@
-name: geektg
+name: geektgg
 services:
-  worker:
+  workerr:
     public: true
     build: .
     replicas: 1
@@ -13,5 +13,5 @@ services:
       - worker:/data
  
 volumes:
-  worker:
+  workerr:
     size: 1Gi
