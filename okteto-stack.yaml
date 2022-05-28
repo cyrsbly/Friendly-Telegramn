@@ -1,6 +1,6 @@
 name: geektgg
 services:
-  workerr:
+  worker:
     public: true
     build: .
     replicas: 1
@@ -10,7 +10,7 @@ services:
       cpu: 900m
       memory: 2Gi
     volumes:
-      - worker:/data
+      - workerr:/data
  
 volumes:
   workerr:
